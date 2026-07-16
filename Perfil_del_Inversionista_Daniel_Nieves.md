@@ -4,6 +4,7 @@
 
 ## Resumen ejecutivo
 
+- **Capital de la cuenta:** $1,500.00 USD · Mercado: solo EE. UU. · Margen: permitido.
 - **Objetivo:** Generar ingresos y proteger capital (combinación de ambos).
 - **Perfil de riesgo:** Moderado – agresivo.
 - **Tolerancia a pérdida por operación:** 5 %–10 %.
@@ -75,13 +76,16 @@ Generar de forma consistente **$3,000 – $5,000 mensuales**. El perfil y las re
 
 > Valores por defecto derivados del perfil. Ajustar los marcados con `[POR DEFINIR]`.
 
-- **Capital total de la cuenta:** `[POR DEFINIR]`
-- **Tamaño máximo por posición:** 5 % del capital (recomendado para nivel principiante).
-- **Pérdida máxima por operación:** 5 %–10 % (según perfil).
-- **Pérdida máxima diaria:** `[POR DEFINIR, sugerido 3 %–5 % de la cuenta]`.
-- **Pérdida máxima semanal:** `[POR DEFINIR, sugerido 8 %–10 % de la cuenta]`.
-- **Número máximo de posiciones abiertas simultáneas:** `[POR DEFINIR, sugerido 5–8]`.
+- **Capital total de la cuenta:** $1,500.00 USD.
+- **Apalancamiento / margen:** permitido.
+- **Tamaño máximo por posición:** 10 % del capital (~$150) — dado el tamaño reducido de la cuenta, no exceder este límite por operación.
+- **Pérdida máxima por operación:** 5 %–10 % (según perfil) → $75–$150.
+- **Pérdida máxima diaria:** 5 % de la cuenta (~$75).
+- **Pérdida máxima semanal:** 10 % de la cuenta (~$150).
+- **Número máximo de posiciones abiertas simultáneas:** 3–5 (ajustado al capital disponible).
 - **Reserva de efectivo mínima:** mantener liquidez para retiros de corto plazo (< 6 meses).
+
+> **Nota práctica (cuenta pequeña + opciones):** con $1,500 de capital, la venta de *cash-secured puts* tradicionales suele requerir colateral (strike × 100) mayor al disponible. El agente debe priorizar **spreads de riesgo definido** (menor colateral) o acciones/ETF de bajo precio, y usar el margen aprobado con prudencia para no violar los límites de pérdida.
 
 ## Estrategias de opciones
 
@@ -114,10 +118,12 @@ Para cada recomendación, el agente debe presentar:
 - ❌ **No** vender opciones desnudas (*naked calls/puts* sin respaldo de efectivo o acciones).
 - ❌ **No** exceder el **5 %–10 % de pérdida** por operación.
 - ❌ **No** asignar más del **tamaño máximo por posición** definido a un solo activo.
-- ❌ **No** usar apalancamiento/margen más allá de lo necesario para estrategias con riesgo definido `[CONFIRMAR: apalancamiento permitido sí/no]`.
 - ❌ **No** operar instrumentos fuera de la lista aprobada (acciones, ETF, opciones, bonos).
+- ❌ **No** operar **criptomonedas** (prohibido).
+- ❌ **No** operar fuera del **mercado de Estados Unidos**.
+- ❌ **No** operar el sector de **consumo discrecional** (sector excluido actualmente).
 - ❌ **No** comprometer la **liquidez** necesaria para los retiros de corto plazo (< 6 meses).
-- ❌ **No** recomendar activos altamente especulativos sin análisis favorable claro (ej. penny stocks, cripto si no está aprobado).
+- ❌ **No** recomendar activos altamente especulativos sin análisis favorable claro (ej. penny stocks).
 - ❌ **No** promediar a la baja ("averaging down") si el análisis se ha vuelto desfavorable.
 
 ### Restricciones (límites y condiciones)
@@ -127,9 +133,10 @@ Para cada recomendación, el agente debe presentar:
 - ⚠️ Mantener la reserva de efectivo mínima antes de abrir nuevas posiciones.
 - ⚠️ Ante caídas del portafolio, seguir la regla del perfil: reducir si el análisis no es favorable; mantener/comprar si lo es.
 
-### Listas de exclusión `[POR DEFINIR]`
+### Listas de exclusión
 
-- **Sectores a evitar:** `[POR DEFINIR — ej. tabaco, armas, etc.]`
-- **Tickers en lista negra:** `[POR DEFINIR]`
-- **Restricciones éticas / religiosas / ESG:** `[POR DEFINIR]`
-- **Mercados permitidos:** `[POR DEFINIR — ej. solo EE.UU.]`
+- **Sectores a evitar:** Consumo discrecional (actualmente).
+- **Instrumentos prohibidos:** Criptomonedas.
+- **Mercados permitidos:** Solo Estados Unidos.
+- **Tickers en lista negra:** _(ninguno definido por ahora)_.
+- **Restricciones éticas / religiosas / ESG:** _(ninguna definida por ahora)_.
