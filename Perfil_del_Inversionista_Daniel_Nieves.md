@@ -68,3 +68,68 @@ Generar de forma consistente **$3,000 – $5,000 mensuales**. El perfil y las re
 5. Reservar un **3 % de los ingresos** para inversión a largo plazo a partir de los 6–12 meses.
 6. Ajustar recomendaciones al estilo **moderado–agresivo** y al nivel de experiencia (principiante en opciones).
 7. **Iterar y actualizar** el perfil conforme se ejecutan operaciones.
+
+---
+
+## Gestión de riesgo y dimensionamiento
+
+> Valores por defecto derivados del perfil. Ajustar los marcados con `[POR DEFINIR]`.
+
+- **Capital total de la cuenta:** `[POR DEFINIR]`
+- **Tamaño máximo por posición:** 5 % del capital (recomendado para nivel principiante).
+- **Pérdida máxima por operación:** 5 %–10 % (según perfil).
+- **Pérdida máxima diaria:** `[POR DEFINIR, sugerido 3 %–5 % de la cuenta]`.
+- **Pérdida máxima semanal:** `[POR DEFINIR, sugerido 8 %–10 % de la cuenta]`.
+- **Número máximo de posiciones abiertas simultáneas:** `[POR DEFINIR, sugerido 5–8]`.
+- **Reserva de efectivo mínima:** mantener liquidez para retiros de corto plazo (< 6 meses).
+
+## Estrategias de opciones
+
+- **Permitidas:**
+  - Venta de *cash-secured puts* (puts respaldadas con efectivo).
+  - *Covered calls* sobre acciones en cartera.
+  - *Spreads* con riesgo definido (credit/debit spreads).
+- **Regla de asignación (assignment):** si te asignan acciones en una put vendida, evaluar vender *covered calls* sobre esas acciones (estrategia "wheel").
+- **Prohibidas por defecto:** ver sección de restricciones.
+
+## Formato de salida esperado del agente
+
+Para cada recomendación, el agente debe presentar:
+
+1. **Tesis** — por qué la operación.
+2. **Instrumento y estructura** — ticker, tipo (acción/opción), strikes y vencimiento si aplica.
+3. **Probabilidad de éxito** estimada.
+4. **Riesgo / beneficio** — pérdida máxima, ganancia objetivo, capital requerido.
+5. **Plan de salida** — objetivo de toma de ganancias y stop-loss.
+6. **Encaje con el perfil** — cómo cumple objetivos e ingresos.
+
+---
+
+## Restricciones y prohibiciones
+
+> Reglas duras que el agente **no debe violar** bajo ninguna circunstancia.
+
+### Prohibiciones (nunca hacer)
+
+- ❌ **No** vender opciones desnudas (*naked calls/puts* sin respaldo de efectivo o acciones).
+- ❌ **No** exceder el **5 %–10 % de pérdida** por operación.
+- ❌ **No** asignar más del **tamaño máximo por posición** definido a un solo activo.
+- ❌ **No** usar apalancamiento/margen más allá de lo necesario para estrategias con riesgo definido `[CONFIRMAR: apalancamiento permitido sí/no]`.
+- ❌ **No** operar instrumentos fuera de la lista aprobada (acciones, ETF, opciones, bonos).
+- ❌ **No** comprometer la **liquidez** necesaria para los retiros de corto plazo (< 6 meses).
+- ❌ **No** recomendar activos altamente especulativos sin análisis favorable claro (ej. penny stocks, cripto si no está aprobado).
+- ❌ **No** promediar a la baja ("averaging down") si el análisis se ha vuelto desfavorable.
+
+### Restricciones (límites y condiciones)
+
+- ⚠️ Toda operación debe respetar el límite de pérdida y el dimensionamiento de posición.
+- ⚠️ Priorizar estrategias de **ingresos con riesgo definido** sobre apuestas direccionales agresivas.
+- ⚠️ Mantener la reserva de efectivo mínima antes de abrir nuevas posiciones.
+- ⚠️ Ante caídas del portafolio, seguir la regla del perfil: reducir si el análisis no es favorable; mantener/comprar si lo es.
+
+### Listas de exclusión `[POR DEFINIR]`
+
+- **Sectores a evitar:** `[POR DEFINIR — ej. tabaco, armas, etc.]`
+- **Tickers en lista negra:** `[POR DEFINIR]`
+- **Restricciones éticas / religiosas / ESG:** `[POR DEFINIR]`
+- **Mercados permitidos:** `[POR DEFINIR — ej. solo EE.UU.]`
