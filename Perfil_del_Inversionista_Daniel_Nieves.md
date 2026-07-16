@@ -4,10 +4,10 @@
 
 ## Resumen ejecutivo
 
-- **Capital de la cuenta:** $1,500.00 USD · Mercado: solo EE. UU. · Margen: permitido.
+- **Capital de la cuenta:** $2,000.00 USD · Mercado: solo EE. UU. · Margen: permitido.
 - **Objetivo:** Generar ingresos y proteger capital (combinación de ambos).
 - **Perfil de riesgo:** Moderado – agresivo.
-- **Límite de pérdida por operación:** máximo **10 %** (~$150); en 0–1 DTE, máximo **5 %** (~$75).
+- **Límite de pérdida por operación:** máximo **10 %** (~$200); en 0–1 DTE, máximo **5 %** (~$100).
 - **Experiencia:** Principiante, con experiencia leve en opciones.
 - **Meta de ingresos (inicial/viable):** $1,200 mensuales.
 - **Meta de ingresos (futuro):** $3,000 – $5,000 mensuales al escalar la cuenta.
@@ -58,7 +58,7 @@ Principiante, con **experiencia leve en opciones**.
 
 ### 11. Expectativa
 
-- **Meta mensual inicial (viable):** **$1,200 mensuales** — objetivo activo alineado con el capital actual ($1,500).
+- **Meta mensual inicial (viable):** **$1,200 mensuales** — objetivo activo alineado con el capital actual ($2,000).
 - **Meta a futuro:** **$3,000 – $5,000 mensuales**, a medida que el capital de la cuenta crezca.
 
 El perfil y las recomendaciones deben **actualizarse con las operaciones** para mejorar continuamente el portafolio y escalar la cuenta hacia la meta futura.
@@ -81,22 +81,22 @@ El perfil y las recomendaciones deben **actualizarse con las operaciones** para 
 
 > Valores por defecto derivados del perfil.
 
-- **Capital total de la cuenta:** $1,500.00 USD.
+- **Capital total de la cuenta:** $2,000.00 USD.
 - **Apalancamiento / margen:** permitido.
-- **Tamaño máximo por posición:** 10 % del capital (~$150) — dado el tamaño reducido de la cuenta, no exceder este límite por operación.
-- **Pérdida máxima por operación (límite duro):** **10 % (~$150)**. En operaciones de **0–1 DTE: 5 % (~$75)**.
-- **Pérdida máxima diaria:** 5 % de la cuenta (~$75).
-- **Pérdida máxima semanal:** 10 % de la cuenta (~$150).
+- **Tamaño máximo por posición:** 10 % del capital (~$200) — dado el tamaño reducido de la cuenta, no exceder este límite por operación.
+- **Pérdida máxima por operación (límite duro):** **10 % (~$200)**. En operaciones de **0–1 DTE: 5 % (~$100)**.
+- **Pérdida máxima diaria:** 5 % de la cuenta (~$100).
+- **Pérdida máxima semanal:** 10 % de la cuenta (~$200).
 - **Número máximo de posiciones abiertas simultáneas:** **5** (ajustado al capital disponible).
 - **Reserva de efectivo mínima:** mantener liquidez para retiros de corto plazo (< 6 meses).
 
-> **Nota práctica (cuenta pequeña + opciones):** con $1,500 de capital, la venta de *cash-secured puts* tradicionales suele requerir colateral (strike × 100) mayor al disponible. El agente debe priorizar **spreads de riesgo definido** (menor colateral) o acciones/ETF de bajo precio, y usar el margen aprobado con prudencia para no violar los límites de pérdida.
+> **Nota práctica (cuenta pequeña + opciones):** con $2,000 de capital, la venta de *cash-secured puts* tradicionales suele requerir colateral (strike × 100) mayor al disponible. El agente debe priorizar **spreads de riesgo definido** (menor colateral) o acciones/ETF de bajo precio, y usar el margen aprobado con prudencia para no violar los límites de pérdida.
 
 ## Estrategias de opciones
 
 - **Estrategia base (prioridad #1):** *credit spreads* de riesgo definido. Es la estrategia principal porque consume poco colateral y encaja con el DTE de 1 día. **La mayoría de las operaciones deben ser spreads.**
 - **Permitidas condicionalmente:**
-  - Venta de *cash-secured puts* — **solo si** el capital cubre el colateral (strike × 100 ≤ efectivo disponible) **y no** es una operación de 0–1 DTE. Con $1,500 será poco frecuente.
+  - Venta de *cash-secured puts* — **solo si** el capital cubre el colateral (strike × 100 ≤ efectivo disponible) **y no** es una operación de 0–1 DTE. Con $2,000 será poco frecuente.
   - *Covered calls* — solo sobre acciones ya en cartera.
 - **Regla de asignación (assignment):** si te asignan acciones en una put vendida, evaluar vender *covered calls* sobre esas acciones (estrategia "wheel").
 - **Prohibidas por defecto:** ver sección de restricciones.
@@ -164,7 +164,7 @@ Existen **dos bolsillos distintos** de asignación (no confundir):
 
 - **Bolsillo A — Largo plazo:** separar el **3 % de los ingresos generados** para inversión a largo plazo (a partir de 6–12 meses).
 - **Bolsillo B — Crecimiento de la cuenta:** reinvertir el **3 %–5 % de las ganancias** de vuelta en la cuenta de trading para aumentar el capital operativo.
-- **Objetivo:** escalar desde $1,500 hacia la meta de ingresos futura ($3,000–$5,000/mes).
+- **Objetivo:** escalar desde $2,000 hacia la meta de ingresos futura ($3,000–$5,000/mes).
 
 ---
 
