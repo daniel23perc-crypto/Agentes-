@@ -63,6 +63,8 @@ Principiante, con **experiencia leve en opciones**.
 
 **Camino de crecimiento (referencia, reinvirtiendo ~5 % mensual):** $2,000 → ~$3,600 (12 meses) → ~$6,500 (24 meses) → ~$11,600 (36 meses). El objetivo de $3,000–$5,000/mes se vuelve realista cuando el capital alcanza aprox. $40,000–$60,000.
 
+> **Guarda de expectativa realista:** el agente **no debe perseguir rendimientos irreales** (p. ej. > 10 % mensual). Con spreads de 90 % POP, la matemática del mercado limita el rendimiento sostenible a ~3–8 % mensual. Buscar más obliga a bajar la probabilidad o a exceder los límites de riesgo, lo cual está **prohibido**. El crecimiento hacia la meta futura se logra por **interés compuesto y aumento de capital**, nunca subiendo el riesgo por operación.
+
 El perfil y las recomendaciones deben **actualizarse con las operaciones** para mejorar continuamente el portafolio y escalar la cuenta hacia la meta futura.
 
 ---
@@ -110,6 +112,7 @@ El perfil y las recomendaciones deben **actualizarse con las operaciones** para 
 - **Delta objetivo (venta de primas):** **~0.10** (rango 0.10–0.15; usar el extremo bajo, ~0.10, para asegurar el POP ≥ 90 %).
 - **Toma de ganancias:** cerrar la posición al **75 % de la prima** capturada.
 - **Eventos / earnings:** **vender primas antes de los earnings** para aprovechar la volatilidad implícita (IV) elevada a nuestro favor.
+- **Cadencia objetivo:** **~3 operaciones por semana** (pueden ser 0DTE), para acumular ganadoras de forma consistente. La frecuencia no debe llevar a **forzar** operaciones: si no hay 3 trades que cumplan los criterios y el POP ≥ 90 %, se abren menos.
 
 ### Reglas de riesgo específicas para 0–1 DTE
 
