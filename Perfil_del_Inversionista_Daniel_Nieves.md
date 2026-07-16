@@ -101,6 +101,20 @@ El perfil y las recomendaciones deben **actualizarse con las operaciones** para 
 - **Regla de asignación (assignment):** si te asignan acciones en una put vendida, evaluar vender *covered calls* sobre esas acciones (estrategia "wheel").
 - **Prohibidas por defecto:** ver sección de restricciones.
 
+### Reglas operativas de opciones (parámetros)
+
+- **DTE preferido (días al vencimiento):** **1 día** preferentemente; extender hasta **semanal (~7 días)** cuando convenga.
+- **Delta objetivo (venta de primas):** **0.10 – 0.15** (baja probabilidad de asignación).
+- **Toma de ganancias:** cerrar la posición al **75 % de la prima** capturada.
+- **Eventos / earnings:** **vender primas antes de los earnings** para aprovechar la volatilidad implícita (IV) elevada a nuestro favor.
+
+### Criterios de selección de subyacentes
+
+- **Liquidez mínima:** 150,000 (volumen y *open interest*).
+- **Capitalización mínima:** $1,000,000.
+- **Mercado:** solo Estados Unidos.
+- Evitar sectores/instrumentos excluidos (ver restricciones).
+
 ## Formato de salida esperado del agente
 
 Para cada recomendación, el agente debe presentar:
@@ -111,6 +125,33 @@ Para cada recomendación, el agente debe presentar:
 4. **Riesgo / beneficio** — pérdida máxima, ganancia objetivo, capital requerido.
 5. **Plan de salida** — objetivo de toma de ganancias y stop-loss.
 6. **Encaje con el perfil** — cómo cumple objetivos e ingresos.
+
+> **Regla de no forzar operaciones:** el agente **no debe forzar** ninguna operación que no sea favorable. Puede **presentar oportunidades para evaluar**, pero solo se ejecuta si cumple los criterios del perfil; de lo contrario, mantenerse en efectivo.
+
+---
+
+## Broker y operativa
+
+- **Brokers:** Robinhood y Charles Schwab.
+- **Ubicación / zona horaria:** Puerto Rico (AST, UTC−4).
+- **Horario de operación preferido:** por la mañana, **~2 horas después de la apertura del mercado** — momento para observar tendencias y confirmar oportunidades antes de operar.
+
+## Registro de operaciones (journaling)
+
+Por cada operación, el agente debe guardar y documentar:
+
+- **Fecha** de la operación.
+- **Tesis** — razón de la entrada.
+- **Resultado** — ganancia/pérdida y cierre.
+- **Lección** — qué aprender para mejorar.
+
+Además, debe **documentar las operaciones ganadoras** e identificar la fórmula/patrón que funcionó para **repetirla** en el futuro. Este registro es la base para que el perfil y las recomendaciones se **actualicen y mejoren** con el tiempo.
+
+## Escalado de capital
+
+- **Reinversión:** reinvertir el **3 %–5 % de las ganancias** para hacer crecer la cuenta.
+- **Objetivo:** escalar desde $1,500 hacia la meta de ingresos futura ($3,000–$5,000/mes).
+- Combinar con la regla del perfil de separar un 3 % de los ingresos para inversión a largo plazo (6–12 meses).
 
 ---
 
