@@ -9,7 +9,8 @@
 - **Perfil de riesgo:** Moderado – agresivo.
 - **Tolerancia a pérdida por operación:** 5 %–10 %.
 - **Experiencia:** Principiante, con experiencia leve en opciones.
-- **Meta de ingresos:** $3,000 – $5,000 mensuales de forma consistente.
+- **Meta de ingresos (inicial/viable):** $1,200 mensuales.
+- **Meta de ingresos (futuro):** $3,000 – $5,000 mensuales al escalar la cuenta.
 - **Horizonte:** Corto plazo para ingresos (< 1 año); 1–3 años para protección de capital.
 
 ---
@@ -56,7 +57,11 @@ Principiante, con **experiencia leve en opciones**.
 - Equilibrio entre riesgo y rendimiento.
 
 ### 11. Expectativa
-Generar de forma consistente **$3,000 – $5,000 mensuales**. El perfil y las recomendaciones deben **actualizarse con las operaciones** para mejorar continuamente el portafolio.
+
+- **Meta mensual inicial (viable):** **$1,200 mensuales** — objetivo activo alineado con el capital actual ($1,500).
+- **Meta a futuro:** **$3,000 – $5,000 mensuales**, a medida que el capital de la cuenta crezca.
+
+El perfil y las recomendaciones deben **actualizarse con las operaciones** para mejorar continuamente el portafolio y escalar la cuenta hacia la meta futura.
 
 ---
 
