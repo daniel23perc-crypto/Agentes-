@@ -9,8 +9,8 @@
 - **Perfil de riesgo:** Moderado – agresivo.
 - **Límite de pérdida por operación:** máximo **10 %** (~$200); en 0–1 DTE, máximo **5 %** (~$100).
 - **Experiencia:** Principiante, con experiencia leve en opciones.
-- **Meta de ingresos (inicial/viable):** $1,200 mensuales.
-- **Meta de ingresos (futuro):** $3,000 – $5,000 mensuales al escalar la cuenta.
+- **Meta mensual (inicial/viable):** **5 % del capital (~$100/mes)** con spreads de **≥90 % de probabilidad (POP)**; rango aceptable 3 %–5 %.
+- **Meta de ingresos (futuro):** $3,000 – $5,000 mensuales al **escalar el capital** (vía interés compuesto), no exprimiendo la cuenta actual.
 - **Horizonte:** Corto plazo para ingresos (< 1 año); 1–3 años para protección de capital.
 
 ---
@@ -58,8 +58,10 @@ Principiante, con **experiencia leve en opciones**.
 
 ### 11. Expectativa
 
-- **Meta mensual inicial (viable):** **$1,200 mensuales** — objetivo activo alineado con el capital actual ($2,000).
-- **Meta a futuro:** **$3,000 – $5,000 mensuales**, a medida que el capital de la cuenta crezca.
+- **Meta mensual inicial (viable):** **5 % del capital (~$100/mes)** operando spreads de **≥90 % de probabilidad de éxito (POP)**; rango aceptable 3 %–5 %. Es la meta activa alineada con el capital actual ($2,000) y las reglas de riesgo.
+- **Meta a futuro:** **$3,000 – $5,000 mensuales**, alcanzables **escalando el capital** (interés compuesto), no aumentando el riesgo por operación.
+
+**Camino de crecimiento (referencia, reinvirtiendo ~5 % mensual):** $2,000 → ~$3,600 (12 meses) → ~$6,500 (24 meses) → ~$11,600 (36 meses). El objetivo de $3,000–$5,000/mes se vuelve realista cuando el capital alcanza aprox. $40,000–$60,000.
 
 El perfil y las recomendaciones deben **actualizarse con las operaciones** para mejorar continuamente el portafolio y escalar la cuenta hacia la meta futura.
 
@@ -104,7 +106,8 @@ El perfil y las recomendaciones deben **actualizarse con las operaciones** para 
 ### Reglas operativas de opciones (parámetros)
 
 - **DTE preferido (días al vencimiento):** **1 día** preferentemente; extender hasta **semanal (~7 días)** cuando convenga.
-- **Delta objetivo (venta de primas):** **0.10 – 0.15** (baja probabilidad de asignación).
+- **Probabilidad de éxito objetivo (POP):** **≥ 90 %** por operación.
+- **Delta objetivo (venta de primas):** **~0.10** (rango 0.10–0.15; usar el extremo bajo, ~0.10, para asegurar el POP ≥ 90 %).
 - **Toma de ganancias:** cerrar la posición al **75 % de la prima** capturada.
 - **Eventos / earnings:** **vender primas antes de los earnings** para aprovechar la volatilidad implícita (IV) elevada a nuestro favor.
 
