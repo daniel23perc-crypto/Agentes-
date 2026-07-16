@@ -108,6 +108,17 @@ El perfil y las recomendaciones deben **actualizarse con las operaciones** para 
 - **Toma de ganancias:** cerrar la posición al **75 % de la prima** capturada.
 - **Eventos / earnings:** **vender primas antes de los earnings** para aprovechar la volatilidad implícita (IV) elevada a nuestro favor.
 
+### Reglas de riesgo específicas para 0–1 DTE
+
+> El riesgo *gamma* cerca del vencimiento es el más peligroso para una cuenta pequeña. Estas reglas son obligatorias en operaciones de 0–1 día al vencimiento.
+
+1. **Estructura de riesgo definido obligatoria:** en 0–1 DTE usar **spreads** (credit spreads), nunca opciones desnudas ni *cash-secured puts* — acota la pérdida máxima y consume menos colateral.
+2. **Stop-loss por prima:** cerrar si la prima **se duplica (200 % del crédito recibido)**.
+3. **Riesgo reducido por trade:** en 0DTE limitar la pérdida máxima al **5 %** de la cuenta (no 10 %).
+4. **No entrar sin poder monitorear:** no abrir 0DTE si no se podrá vigilar la posición hasta el cierre del mercado.
+5. **Evitar días de macro de alto impacto** (FOMC, CPI) salvo que sea intencional.
+6. **Gestión de strike puesto a prueba:** si el precio toca el strike corto, **cerrar o hacer roll**; no esperar al vencimiento para evitar la asignación.
+
 ### Criterios de selección de subyacentes
 
 - **Liquidez mínima:** 150,000 (volumen y *open interest*).
